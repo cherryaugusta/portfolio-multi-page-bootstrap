@@ -469,7 +469,12 @@ hr {
   opacity: .96;
 }
 
-.ca-sticky-aside { position: sticky; top: 100px; align-self: start; }
+.ca-sticky-aside { 
+  position: sticky; 
+  top: 100px; 
+  align-self: start; 
+  height: fit-content;
+}
 
 .ca-badge {
   display: inline-flex;
@@ -754,6 +759,22 @@ hr {
 .ca-footer-title { color: #fff; font-weight: 800; }
 
 .ca-page-main { min-height: 60vh; }
+
+.cv-right-column {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.cv-right-column .ca-card:last-child {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.cv-right-column .ca-card:last-child .ca-timeline-item:last-child {
+  margin-bottom: 0;
+}
 
 @media (max-width: 991.98px) {
   .ca-sticky-aside { position: static; }
