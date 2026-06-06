@@ -31,7 +31,7 @@
 - **Google Fonts** (Inter)
 - **GitHub Pages** + GitHub Actions CI/CD
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 portfolio-multi-page-bootstrap/
