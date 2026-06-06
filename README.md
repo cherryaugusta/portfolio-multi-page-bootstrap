@@ -2,8 +2,6 @@
 
 **Professional multi-page portfolio website** of Cherry Augusta, a London-based Software Engineer specializing in **Python, Django, TypeScript, React, Angular, PostgreSQL, Redis, Celery, Docker**, backend APIs, full-stack applications, and reviewable AI-assisted workflow systems.
 
-![Portfolio Preview](assets/og-preview.jpg)
-
 ## Features
 
 - **Modern multi-page design** built with Bootstrap 5 + custom CSS
